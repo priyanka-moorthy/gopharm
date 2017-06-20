@@ -1,0 +1,58 @@
+<html>
+<head>
+<!link rel='stylesheet' href='userorder.css' type='text/css' /> 
+</head>
+<body>
+<CENTER>
+<font face="consolas" color="white">
+<h1>LOGIN</h1></font></center>   
+<form name="orders"  action="availabilitycheck.php" method="post">
+<font face="consolas" color="black">
+<!form name="form1">
+<fieldset class="order1">
+<label for="tabletname">Name of tablet</label>
+<input type="text" name="tabletname" size="20"/>
+<label for="notab">   Number of tablets</label>
+<input type="text" name="notab" size="20"/>
+<label for="mgtab">   mg of tablet</label>
+<input type="text" name="mgtab" size="20" />  
+<label for="status3">   status</label>
+<input type="text" name="status3" size="20" />  
+ </fieldset>
+ <!/form>
+ <br><br><br>
+ <!form name="form2">
+ <!fieldset class="order2">
+<!label for="tabletname">Name of tablet</label>
+<!input type="text" name="tabletname" size="20"/>
+<!label for="notab">   Number of tablets</label>
+<!input type="text" name="notab" size="20"/>
+<!label for="mgtab">   mg of tablet</label>
+<!input type="text" name="mgtab" size="20" />  
+<!label for="status2">   status</label>
+<!input type="text" name="status2" size="20" />  
+ <!/fieldset>
+ <!/form>
+ <br><br><br>
+ <!form name="form3">
+  <!fieldset class="order3">
+
+<!label for="tabletname">Name of tablet</label>
+<!input type="text" name="tabletname" size="20"/>
+<!label for="notab">   Number of tablets</label>
+<!input type="text" name="notab" size="20"/>
+<!label for="mgtab">   mg of tablet</label>
+<!input type="text" name="mgtab" size="20" />  
+<!label for="status3">   status</label>
+<!input type="text" name="status3" size="20" />  
+ <!/fieldset>
+ <!/form>
+ <br><br><br>
+ 
+ <!fieldset class="submitorders">
+<center><input type="submit" value="Submit" /></center>
+</fieldset>
+</form>
+</font>
+</body>
+</html>
